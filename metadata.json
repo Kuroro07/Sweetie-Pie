@@ -1,0 +1,6 @@
+{
+  "name": "A Million Reasons: A Romantic Journey for You",
+  "description": "An interactive, heartfelt romantic experience designed to surprise and celebrate the one you love through activities, love letters, and sweet memories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

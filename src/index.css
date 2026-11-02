@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-handwriting: 'Caveat', cursive;
+  }
+  body {
+    font-family: var(--font-sans);
+    background-color: #faf7f5;
+    color: #292524;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif-romantic {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #faf8f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #b4530933;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b4530966;
+}
+
+/* Subtle glow effects */
+.glow-romantic {
+  box-shadow: 0 0 25px -5px rgba(244, 63, 94, 0.25);
+}
+
+.glow-gold {
+  box-shadow: 0 0 25px -5px rgba(217, 119, 6, 0.25);
+}
+
+/* Parchment paper texture simulation */
+.paper-texture {
+  background-color: #fdfbf7;
+  background-image: radial-gradient(#e5dfd5 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+}
+
+/* Scratch card cursor */
+.cursor-coin {
+  cursor: crosshair;
+}
